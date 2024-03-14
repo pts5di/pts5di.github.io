@@ -1,31 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
 
-    <body>
-        <div class="wrapper">
+<head>
+    <title>Boberick the llama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            <div class="left">
-                <img src="img/profile.jpeg"/>
-                <h1>Paul Stevans</h1>
+<body>
+    <header>
+        <img src="img/profile.jpeg" class="profile-img">
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="section-inner">
+                <img src="img/profile.jpeg" class="profile-img">
+                <h1>Hi, I'm Paul Stevans.</h1>
             </div>
-
-            <div class="right">
+        </section>
+        <section id="about">
+            <div class="section-inner">
+                <h2>About me</h2>
+                <p>I'm a programmer, former actor, and I'm a big fan of snowboarding, hockey (go Kraken!) and
+                    cooking/baking. </p>
+                <h3>Achievements</h3>
                 <ul>
-                    <li>
-                        <a href="https://github.com/pts5di">Github</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/paul-stevans/">LinkedIn</a>
-                    </li>
+                    <li>This website, 2024</li>
+                    <li>Bachelor of Science, Computer Science, 2023</li>
+                    <li>Associates Degree, Mathematics, 2021</li>
                 </ul>
-                <p>
-                    Recent UW graduate and web developer. 
-                    Thanks for checking out my website!
-                </p>
             </div>
-        </div>
-    </body>
+        </section>
+        <section id="contact">
+            <div class="section-inner">
+                <h2>Contact me</h2>
+                <p>You can find me on:</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/paul-stevans/">LinkedIn</a></li>
+                    <li><a href="https://www.github.com/pts5di">Github</a></li>
+                    <li><a href="https://www.instagram.com/thepaulstevans/">Instagram</a></li>
+                </ul>
+                <p>Or, you can <a href="mailto:pts5di@gmail.com">send me an email</a>.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+
 </html>
